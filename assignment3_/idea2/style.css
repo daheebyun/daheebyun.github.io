@@ -1,0 +1,138 @@
+html,body{
+	background: #080808;
+	margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    cursor: url("hand.png") 10 0, auto;
+    cursor: url("hand.png") 10 0, auto;
+    cursor: -webkit-image-set(
+	    url("hand.png") 1x,
+	    url("hand.png") 2x
+	  ) 10 0, auto;
+}
+img{
+	left: 25%;
+    top: 10%;
+    position:absolute;
+	height:90vh;
+	width: 30vw;
+	object-fit: contain;
+}
+#dot1{
+    left: 1%;
+    top: 95%;
+    position:absolute;
+ 	height: 27px;
+ 	width: 27px;
+ 	background-color: #583a2c;
+ 	border-radius: 50%;
+ 	display: inline-block;
+}
+#dot2{
+	position: absolute;
+	left: 3.5%;
+    top: 95%;
+	height: 27px;
+ 	width: 27px;
+ 	background-color: #d6cdc1;
+ 	border-radius: 50%;
+ 	display: inline-block;
+}
+#dot3{
+	position: absolute;
+	left: 6%;
+    top: 95%;
+	height: 27px;
+ 	width: 27px;
+ 	background-color: #583a2c;
+ 	border-radius: 50%;
+ 	display: inline-block;
+}
+#dot1:hover{background-color: #d6cdc1;}
+#dot2:hover{background-color: #d6cdc1;}
+#dot3:hover{background-color: #d6cdc1;}
+a{
+	background-color: #d6cdc1;
+    cursor: url("hand.png") 10 0, auto;
+    cursor: url("hand.png") 10 0, auto;
+    cursor: -webkit-image-set(
+	    url("hand.png") 1x,
+	    url("hand.png") 2x
+	  ) 10 0, auto;
+}
+
+#heart{
+	left: 90%;
+    top: 5%;
+	height:10vh;
+	width: 6vw;
+	object-fit: contain;
+}
+#heart1{
+	left: 90%;
+    top: 25%;
+	height:10vh;
+	width: 6vw;
+	object-fit: contain;
+}
+#heart2{
+	left: 90%;
+    top: 45%;
+	height:10vh;
+	width: 6vw;
+	object-fit: contain;
+}
+#heart3{
+	left: 90%;
+    top: 65%;
+	height:10vh;
+	width: 6vw;
+	object-fit: contain;
+}
+#heart4{
+	left: 90%;
+    top: 85%;
+	height:10vh;
+	width: 6vw;
+	object-fit: contain;
+}
+#clickEye{
+	display: none;
+	transform: rotate(10deg);
+	left: 35%;
+    top: 40%;
+	width: 5vw;
+	height: 7vh;
+}
+#clickLips{
+	display: none;
+	transform: rotate(25deg);
+	left: 36%;
+    top: 53%;
+	height:7.5vh;
+	width: 7.5vw;
+}
+#clickEyelash{
+	display: none;
+	transform: rotate(15deg);
+	left: 42.2%;
+    top: 41%;
+	height:8vh;
+	width: 5vw;
+}
+#clickL{
+	display: none;
+	transform: rotate(20deg);
+	left: 42%;
+    top: 49%;
+	height:8vh;
+	width: 5vw;
+}
+#clickEyeball{
+	display: none;
+	left: 43.5%;
+    top: 45%;
+	height:2.1vh;
+	width: 1.4vw;
+}

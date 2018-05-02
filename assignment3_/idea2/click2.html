@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<a id="dot1" href="press.html"></a>
+	<a id="dot2" href="click.html"></a>
+	<a id="dot3" href="change.html"></a>
+
+	<img src="1.jpg">
+	<img id="heart" src="like.png">
+	<img id="heart1" src="like2.png">
+	<img id="heart2" src="like3.png">
+	<img id="heart3" src="like4.png">
+	<img id="heart4" src="like5.png">
+	<img id="clickEye" src="click2.png">
+	<img id="clickLips" src="click3.png">
+	<img id="clickEyelash" src="click4.png">
+	<img id="clickL" src="click5.png">
+	<img id="clickEyeball" src="click6.png">
+
+<script>
+var eye = document.getElementById("clickEye");
+var lips = document.getElementById("clickLips");
+var eyelash = document.getElementById("clickEyelash");
+var l = document.getElementById("clickL");
+var eyeball = document.getElementById("clickEyeball");
+
+var heart = document.getElementById("heart");
+var heart2 = document.getElementById("heart1");
+var heart3 = document.getElementById("heart2");
+var heart4 = document.getElementById("heart3");
+var heart5 = document.getElementById("heart4");
+
+
+heart.addEventListener("click", show);
+heart2.addEventListener("click", show2);
+heart3.addEventListener("click", show3);
+heart4.addEventListener("click", show4);
+heart5.addEventListener("click", show5);
+
+
+var isEye = false;
+
+function show(){
+	if (isEye == false){
+		eye.style.display = "block";
+		isEye = true;
+	} else if (isEye ==true){
+		eye.style.display = "none";
+		isEye = false;
+	}
+	
+}
+
+var isLips = false;
+
+function show2(){
+
+	if (isLips == false){
+		lips.style.display = "block";
+		isLips = true;
+	} else if (isLips ==true){
+		lips.style.display = "none";
+		isLips = false;
+	}
+	
+}
+
+var isEyelash = false;
+
+function show3(){
+
+	if (isEyelash == false){
+		eyelash.style.display = "block";
+		isEyelash = true;
+	} else if (isEyelash ==true){
+		eyelash.style.display = "none";
+		isEyelash = false;
+	}
+	
+}
+
+var isL = false;
+
+function show4(){
+
+	if (isL == false){
+		l.style.display = "block";
+		isL = true;
+	} else if (isL ==true){
+		l.style.display = "none";
+		isL = false;
+	}
+	
+}
+
+var isEyeball = false;
+
+function show5(){
+	if (isEyeball == false){
+		eyeball.style.display = "block";
+		isEyeball = true;
+	} else if (isEyeball ==true){
+		eyeball.style.display = "none";
+		isEyeball = false;
+	}
+	
+}
+</script>
+</body>
+</html>

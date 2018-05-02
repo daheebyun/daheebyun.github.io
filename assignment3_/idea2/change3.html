@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<style>
+html,body{
+	background: url(_MG_6790.JPG);
+	margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    cursor: url("hand.png") 10 0, auto;
+    cursor: url("hand.png") 10 0, auto;
+    cursor: -webkit-image-set(
+	    url("hand.png") 1x,
+	    url("hand.png") 2x
+	  ) 10 0, auto;
+}
+img{
+	left: 13%;
+    top: 10%;
+    position:absolute;
+	height:90vh;
+	width: 55vw;
+	object-fit: contain;
+	cursor: url("hand.png") 10 0, auto;
+    cursor: url("hand.png") 10 0, auto;
+    cursor: -webkit-image-set(
+	    url("hand.png") 1x,
+	    url("hand.png") 2x
+	  ) 10 0, auto;
+}
+#dot1{
+    left: 1%;
+    top: 95%;
+    position:absolute;
+ 	height: 27px;
+ 	width: 27px;
+ 	background-color: #282756;
+ 	border-radius: 50%;
+ 	display: inline-block;
+}
+#dot2{
+	position: absolute;
+	left: 3.5%;
+    top: 95%;
+	height: 27px;
+ 	width: 27px;
+ 	background-color: #282756;
+ 	border-radius: 50%;
+ 	display: inline-block;
+}
+#dot3{
+	position: absolute;
+	left: 6%;
+    top: 95%;
+	height: 27px;
+ 	width: 27px;
+ 	background-color: #70141c;
+ 	border-radius: 50%;
+ 	display: inline-block;
+}
+#eye{
+	position: absolute;
+	transform: rotate(15deg);
+	left: 34.5%;
+    top: 38.4%;
+	height:9vh;
+	width: 6vw;
+	transition: 2s ease-out, opacity 0.3s ease 0.5s;
+	object-fit: contain;
+	cursor: url("hand.png") 10 0, auto;
+    cursor: url("hand.png") 10 0, auto;
+    cursor: -webkit-image-set(
+	    url("hand.png") 1x,
+	    url("hand.png") 2x
+	  ) 10 0, auto;
+}
+#dot1:hover{background-color: #70141c;}
+#dot2:hover{background-color: #70141c;}
+#dot3:hover{background-color: #70141c;}
+
+#ph{
+	display: none;
+}
+a{
+	background-color: #d6cdc1;
+    cursor: url("hand.png") 10 0, auto;
+    cursor: url("hand.png") 10 0, auto;
+    cursor: -webkit-image-set(
+	    url("hand.png") 1x,
+	    url("hand.png") 2x
+	  ) 10 0, auto;
+}
+
+</style>
+<body>
+	<a id="dot1" href="press.html"></a>
+	<a id="dot2" href="click.html"></a>
+	<a id="dot3" href="change.html"></a>
+
+	<p id="ph">change</p>
+	<img src="1_1.png">
+	<img id="eye" src="change3.png">
+<script> 
+var eye = document.getElementById("eye");
+eye.addEventListener("click", enlarge);
+function enlarge(){
+	eye.style.width = "70%";
+	eye.style.top = "20%";
+	eye.style.height = "70%";
+	eye.style.left = "15%";
+	eye.style.transform = "rotate(0deg)";
+}
+setTimeout(function(){window.location.href="change4.html"},5000);
+</script>
+</body>
+</html>

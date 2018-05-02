@@ -1,0 +1,10 @@
+html,body{margin:0;}
+div{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background: #000;
+	border-radius: 15px;
+	margin-top: -50px; 
+	margin-left: -50px;
+}

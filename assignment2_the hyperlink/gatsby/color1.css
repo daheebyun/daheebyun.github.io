@@ -1,0 +1,116 @@
+body{font-family: 'Sarpanch', sans-serif;}
+body {
+  background: black;
+  animation: color-me-in 5s;
+}
+
+@keyframes color-me-in {
+  0% {
+    background: red;
+  }
+  100% {
+    background: black;
+  }
+}
+body{
+  background: #fefefe;
+}
+.container{
+  width: 20%;  
+  height: 10px;
+  position: absolute;
+  margin-top:99vh;
+}
+.bg{
+  height: 5px;
+  width:20%;
+  background-color: #333;
+  opacity: .2;
+  border-radius: 3px;
+}
+.color_bar{
+  height:15px;
+  width:20%;
+  background-color:red;
+  border-radius: 8px;
+  top:-6px; left:0;
+  animation: loading 7s;
+  position: absolute;
+  animation-fill-mode: forwards;
+}
+.s1{
+	width: 50.1vw; 
+	height: 150px;
+	position:absolute;
+	color: red;
+	top:36vh;
+	left:-21.5vw;
+	font-size:100px;
+	transform: rotate(90deg);
+	animation: fadein ease-in 9s;
+	animation-fill-mode: forwards;
+}
+.box{
+	background: red;
+	opacity: 0.5;
+	position: absolute;
+	top: 33vh;
+	left: 70vw;
+	animation: fadein ease-in 9s;
+	animation-fill-mode: forwards;
+	}
+.f1{
+	animation: fadein ease-in 11s;
+	animation-fill-mode: forwards;
+	margin-top: 1.5vh;
+	margin-left: 1.5vw;
+	font-size:1.5vw;
+}
+
+.survival{
+	margin-bottom: 15vw;
+	margin-left:23vw;
+	animation: fadein ease-in 13s;
+	animation-fill-mode: forwards;
+
+}
+.physical_self{
+	transform: rotate(90deg);
+	margin-left:10vw;
+	animation: fadein ease-in 13s;
+	animation-fill-mode: forwards;
+
+}
+.instinct{
+	margin-left:2vw;
+	margin-top: -3vh;
+	animation: fadein ease-in 13s;
+	animation-fill-mode: forwards;
+
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: black;
+}
+a:hover { 
+	text-decoration: none;
+}
+@keyframes loading {
+	0%		{ width: 0%; }
+	20%		{ width: 20%; }
+	50%		{ width: 50%; }
+	100%	{width: 100%; }
+}
+@-webkit-keyframes fadein { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadein { from { opacity:0; } to { opacity:1; } }
+@keyframes fadein { from { opacity:0; } to { opacity:1; } }

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html,body{
+	background: url(trap.gif);
+	margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    cursor: url("hand.png") 10 0, auto;
+    cursor: url("hand.png") 10 0, auto;
+    cursor: -webkit-image-set(
+	    url("hand.png") 1x,
+	    url("hand.png") 2x
+	  ) 10 0, auto;
+}
+#dot1{
+    left: 1%;
+    top: 95%;
+    position:absolute;
+ 	height: 27px;
+ 	width: 27px;
+ 	background-color: #282756;
+ 	border-radius: 50%;
+ 	display: inline-block;
+}
+#dot2{
+	position: absolute;
+	left: 3.5%;
+    top: 95%;
+	height: 27px;
+ 	width: 27px;
+ 	background-color: #282756;
+ 	border-radius: 50%;
+ 	display: inline-block;
+}
+#dot3{
+	position: absolute;
+	left: 6%;
+    top: 95%;
+	height: 27px;
+ 	width: 27px;
+ 	background-color: #70141c;
+ 	border-radius: 50%;
+ 	display: inline-block;
+}
+/*#eye{
+	position: absolute;
+	left: 14%;
+    top: 20%;
+	height:70vh;
+	width: 72vw;
+	object-fit: contain;
+	cursor: url("hand.png") 10 0, auto;
+    cursor: url("hand.png") 10 0, auto;
+    cursor: -webkit-image-set(
+	    url("hand.png") 1x,
+	    url("hand.png") 2x
+	  ) 10 0, auto;
+}*/
+#eyeLash{
+	position: absolute;
+	transform: rotate(182deg);
+	left: 20%;
+    top: -35%;
+	height:59vh;
+	width: 55vw;
+	object-fit: contain;
+	z-index: 2;
+	cursor: url("hand.png") 10 0, auto;
+    cursor: url("hand.png") 10 0, auto;
+    cursor: -webkit-image-set(
+	    url("hand.png") 1x,
+	    url("hand.png") 2x
+	  ) 10 0, auto;
+
+}
+#dot1:hover{background-color: #70141c;}
+#dot2:hover{background-color: #70141c;}
+#dot3:hover{background-color: #70141c;}
+
+a{
+	background-color: #d6cdc1;
+    cursor: url("hand.png") 10 0, auto;
+    cursor: url("hand.png") 10 0, auto;
+    cursor: -webkit-image-set(
+	    url("hand.png") 1x,
+	    url("hand.png") 2x
+	  ) 10 0, auto;
+}
+</style>
+</head>
+<body>
+	<a id="dot1" href="press.html"></a>
+	<a id="dot2" href="click.html"></a>
+	<a id="dot3" href="change.html"></a>
+</body>
+
+</html>

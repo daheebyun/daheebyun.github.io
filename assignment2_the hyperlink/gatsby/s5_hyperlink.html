@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Sarpanch" rel="stylesheet">
+<style>
+html,body{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+}
+.s1{
+	color:red;
+}
+.s2{color:green;}
+.s3{color:blue;}
+.s4{color:yellow;}
+.h1{
+	width: 302px; 
+	height: 302px;
+	position:absolute;
+	top: 50vh;
+	left:-15vw;
+	/*background: white;*/
+	background-image: url("images/12.png");
+	z-index:1;
+	animation: fadein ease-in 5s;
+	animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadein { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadein { from { opacity:0; } to { opacity:1; } }
+@keyframes fadein { from { opacity:0; } to { opacity:1; } }
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: purple;
+}
+a:active {
+    color: purple;
+}
+a:hover { 
+	text-decoration: none;
+}
+
+</style>
+<body>
+<div>
+	<div class="container">
+			<div class="h1"></div>
+			<div class="s1"><a href="tom buchanan.html" style="color: rgb(0,0,255)"><font color="RED">physicological</font></a></div>
+			<div class="s2"><a href="daisy.html" style="color: rgb(0,0,255)"><font color="GREEN">safety<span id="padding-safety">&nbsp;</span></font></a></div>
+			<div class="s3"><a href="jordan.html" style="color: rgb(0,0,255)"><font color="BLUE">love / belonging<span id="padding-love">&nbsp;</span></font></a></div>
+			<div class="s4 e"><a href="gatsby.html" style="color: rgb(0,0,255)"><font color="YELLOW"><span>esteem</span></font></a></div>
+			<div class="s5"><a href="nick.html">self-actualization<span id="padding-sa">&nbsp;</span></a></div>
+			<div class="h2"></div>
+			<div class="h3"></div>
+			<div class="h4"></div>
+	</div>
+</div>
+</body>
+</html>

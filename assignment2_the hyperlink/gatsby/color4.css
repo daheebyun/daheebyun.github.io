@@ -1,0 +1,187 @@
+body{font-family: 'Sarpanch', sans-serif;}
+body {
+  background: black;
+  animation: color-me-in 5s;
+}
+
+@keyframes color-me-in {
+  0% {
+    background: yellow;
+  }
+  100% {
+    background: black;
+  }
+}
+body{
+  background: #fefefe;
+}
+.container{
+  width: 20%;  
+  height: 10px;
+  position: absolute;
+  margin-top:99vh;
+}
+.bg{
+  height: 5px;
+  width:20%;
+  background-color: #333;
+  opacity: .2;
+  border-radius: 3px;
+}
+.color_bar{
+  height:15px;
+  width:20%;
+  background-color:red;
+  border-radius: 8px;
+  top:-6px; left:0;
+  animation: loading 7s;
+  position: absolute;
+  animation-fill-mode: forwards;
+}
+.container1{
+  width: 40%;  
+  height: 10px;
+  position: absolute;
+  margin-top:97vh;
+}
+.bg1{
+  height: 5px;
+  width:20%;
+  background-color: #333;
+  opacity: .2;
+  border-radius: 3px;
+}
+.color_bar1{
+  height:15px;
+  width:40%;
+  background-color:green;
+  border-radius: 8px;
+  top:-6px; left:0;
+  animation: loading 7s;
+  position: absolute;
+  animation-fill-mode: forwards;
+}
+.container2{
+  width: 60%;  
+  height: 10px;
+  position: absolute;
+  margin-top:95vh;
+}
+.bg2{
+  height: 5px;
+  width:20%;
+  background-color: #333;
+  opacity: .2;
+  border-radius: 3px;
+}
+.color_bar2{
+  height:15px;
+  width:40%;
+  background-color:blue;
+  border-radius: 8px;
+  top:-6px; left:0;
+  animation: loading 7s;
+  position: absolute;
+  animation-fill-mode: forwards;
+}
+.container3{
+  width: 80%;  
+  height: 10px;
+  position: absolute;
+  margin-top:93vh;
+}
+.bg3{
+  height: 5px;
+  width:20%;
+  background-color: #333;
+  opacity: .2;
+  border-radius: 3px;
+}
+.color_bar3{
+  height:15px;
+  width:40%;
+  background-color:yellow;
+  border-radius: 8px;
+  top:-6px; left:0;
+  animation: loading 7s;
+  position: absolute;
+  animation-fill-mode: forwards;
+}
+.s1{
+	width: 50.1vw; 
+	height: 150px;
+	position:absolute;
+	color: yellow;
+	top:38vh;
+	left:-24vw;
+	font-size:70px;
+	transform: rotate(90deg);
+	animation: fadein ease-in 9s;
+	animation-fill-mode: forwards;
+}
+.box{
+	background: yellow;
+	opacity: 0.5;
+	position: absolute;
+	top: 33vh;
+	left: 70vw;
+	animation: fadein ease-in 9s;
+	animation-fill-mode: forwards;
+	}
+.f1{
+	animation: fadein ease-in 11s;
+	animation-fill-mode: forwards;
+	margin-top: 1.5vh;
+	margin-left: 1.5vw;
+	font-size:1.5vw;
+}
+
+.survival{
+	margin-top: 15vw;
+	margin-left:5vw;
+	animation: fadein ease-in 13s;
+	animation-fill-mode: forwards;
+
+}
+.physical_self{
+	transform: rotate(-90deg);
+	margin-left:21vw;
+	margin-top:-40px;
+	animation: fadein ease-in 13.5s;
+	animation-fill-mode: forwards;
+  font-size:20px;
+
+}
+.energy{
+  margin-left:21vw;
+  margin-top:-40px;
+  animation: fadein ease-in 13.5s;
+  animation-fill-mode: forwards;
+  font-size:20px;
+
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: yellow;
+}
+a:active {
+    color: yellow;
+}
+a:hover { 
+	text-decoration: none;
+}
+@keyframes loading {
+	0%		{ width: 0%; }
+	40%		{ width: 40%; }
+	50%		{ width: 50%; }
+	100%	{width: 100%; }
+}
+@-webkit-keyframes fadein { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadein { from { opacity:0; } to { opacity:1; } }
+@keyframes fadein { from { opacity:0; } to { opacity:1; } }
