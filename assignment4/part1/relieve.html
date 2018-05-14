@@ -63,14 +63,14 @@ img {
 
 			console.log(data);
 
-			var unwind_teas = data.unwind;
-			// var unwind_teas = data.unwind;
+			var relieve_teas = data.relieve;
+			// var relieve_teas = data.relieve;
 
-			for (var i = 0; i < unwind_teas.length; i++) {
+			for (var i = 0; i < relieve_teas.length; i++) {
 				
-				var name = unwind_teas[i].teaName;
-				var imageurl = unwind_teas[i].imageUrl;
-				var url = unwind_teas[i].url;
+				var name = relieve_teas[i].teaName;
+				var imageurl = relieve_teas[i].imageUrl;
+				var url = relieve_teas[i].url;
 
 				$("body").append( "<a href='" + url + "'><img src='" + imageurl + "' ></a>" );
 			}

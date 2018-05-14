@@ -63,14 +63,14 @@ img {
 
 			console.log(data);
 
-			var remedy = data.remedy;
+			var remedy_teas = data.remedy;
 			// var unwind_teas = data.unwind;
 
-			for (var i = 0; i < remedy.length; i++) {
+			for (var i = 0; i < remedy_teas.length; i++) {
 				
-				var name = remedy[i].teaName;
-				var imageurl = remedy[i].imageUrl;
-				var url = remedy[i].url;
+				var name = remedy_teas[i].teaName;
+				var imageurl = remedy_teas[i].imageUrl;
+				var url = remedy_teas[i].url;
 
 				$("body").append( "<a href='" + url + "'><img src='" + imageurl + "' ></a>" );
 			}

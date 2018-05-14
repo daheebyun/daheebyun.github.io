@@ -64,14 +64,14 @@ img {
 
 			console.log(data);
 
-			var relieve_teas = data.relieve;
+			var revive_teas = data.revive;
 			// var unwind_teas = data.unwind;
 
-			for (var i = 0; i < relieve_teas.length; i++) {
+			for (var i = 0; i < revive_teas.length; i++) {
 				
-				var name = relieve_teas[i].teaName;
-				var imageurl = relieve_teas[i].imageUrl;
-				var url = relieve_teas[i].url;
+				var name = revive_teas[i].teaName;
+				var imageurl = revive_teas[i].imageUrl;
+				var url = revive_teas[i].url;
 
 				$("body").append( "<a href='" + url + "'><img src='" + imageurl + "' ></a>" );
 			}
