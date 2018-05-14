@@ -2,7 +2,7 @@
 	 "calm" : [
 		{
 			"teaName" : "Chamomile tea",
-			"imageUrl" : "images/Chamomile tea.png",
+			"imageUrl" : "images/chamomile.png",
 			"url" : "images/1.jpg"
 		},
 		{
@@ -12,7 +12,7 @@
 		},
 		{
 			"teaName" : "Solomon's seal tea",
-			"imageUrl" : "images/s1.png",
+			"imageUrl" : "images/solomon.png",
 			"url" : "images/3.jpg"
 		},
 		{
