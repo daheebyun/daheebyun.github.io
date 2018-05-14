@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html, body{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	font-family: "Minion Pro", serif;
+}
+a{
+	text-decoration: none;
+}
+p{
+	color: #000;
+	font-size: 50px;
+	text-align: center;
+
+}
+hr{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 6%;
+}
+#calm{color: #3d402d;}
+#unwind{color: #4f5357;}
+#relieve{color: #c1a87c;}
+#revive{color: #bdb0a2;}
+#remedy{color: #59443a;}
+
+#line1{color: #4f5357;}
+#line2{color: #c1a87c;}
+#line3{color: #bdb0a2;}
+#line4{color: #59443a;}
+</style>
+</head>
+<body>
+	<p id=calm> CALM <a href="calm.html"></a></p>
+	<hr id=line1>
+	<p id=unwind> UNWIND <a href="unwind.html"></a></p>
+	<hr id=line2>
+	<p id=relieve> RELIEVE <a href="relieve.html"></a></p>
+	<hr id=line3>
+	<p id=revive> REVIVE <a href="revive.html"></a></p>
+	<hr id=line4>
+	<p id=remedy> REMEDY <a href="remedy.html"></a></p>
+
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+		
+		var url = "all_teas.json";
+
+		$.getJSON(url, function (data) {
+
+			console.log(data);
+
+			var calm_teas = data.calm;
+			var unwind_teas = data.unwind;
+			var relieve = data.relieve;
+			var revive = data.revive;
+			var remedy = data.remedy;
+
+			for (var i = 0; i < calm_teas.length; i++) {
+				
+				var name = calm_teas[i].teaName;
+				var imageurl = calm_teas[i].imageUrl;
+				var url = calm_teas[i].url;
+
+				$("body").append( "<a href='" + url + "'><img src='" + imageurl + "' ></a>" );
+			}
+			for (var i = 0; i < unwind_teas.length; i++) {
+				
+				var name = unwind_teas[i].teaName;
+				var imageurl = unwind_teas[i].imageUrl;
+				var url = unwind_teas[i].url;
+
+				$("body").append( "<a href='" + url + "'><img src='" + imageurl + "' ></a>" );
+			}
+			for (var i = 0; i < relieve_teas.length; i++) {
+				
+				var name = relieve_teas[i].teaName;
+				var imageurl = relieve_teas[i].imageUrl;
+				var url = relieve_teas[i].url;
+
+				$("body").append( "<a href='" + url + "'><img src='" + imageurl + "' ></a>" );
+			}
+			for (var i = 0; i < revive_teas.length; i++) {
+				
+				var name = revive_teas[i].teaName;
+				var imageurl = revive_teas[i].imageUrl;
+				var url = revive_teas[i].url;
+
+				$("body").append( "<a href='" + url + "'><img src='" + imageurl + "' ></a>" );
+			}
+			for (var i = 0; i < remedy_teas.length; i++) {
+				
+				var name = remedy_teas[i].teaName;
+				var imageurl = remedy_teas[i].imageUrl;
+				var url = remedy_teas[i].url;
+
+				$("body").append( "<a href='" + url + "'><img src='" + imageurl + "' ></a>" );
+			}
+
+		})
+
+		
+	</script>
+
+</body>
+</html>

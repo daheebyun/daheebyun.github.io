@@ -1,0 +1,210 @@
+{
+	 "calm" : [
+		{
+			"teaName" : "Chamomile tea",
+			"imageUrl" : "/images/Chamomile tea.png",
+			"url" : "/images/1.jpg"
+		},
+		{
+			"teaName" : "Passion flower tea",
+			"imageUrl" : "/images/Passion flower tea.png",
+			"url" : "/images/2.jpg"
+		},
+		{
+			"teaName" : "Solomon's seal tea",
+			"imageUrl" : "/images/Solomon's seal tea.png",
+			"url" : "/images/3.jpg"
+		},
+		{
+			"teaName" : "Barely tea",
+			"imageUrl" : "/images/Barely tea.png",
+			"url" : "/images/4.jpg"
+		},
+		{
+			"teaName" : "Cassia seed tea",
+			"imageUrl" : "/images/Cassia seed tea.png",
+			"url" : "/images/5.jpg"
+		},
+		{
+			"teaName" : "Lavender tea",
+			"imageUrl" : "/images/Lavender tea.png",
+			"url" : "/images/6.jpg"
+		},
+		{
+			"teaName" : "Magnolia tea",
+			"imageUrl" : "/images/Magnolia tea.png",
+			"url" : "/images/7.jpg"
+		},
+		{
+			"teaName" : "Hops herbal tea",
+			"imageUrl" : "/images/Hops herbal tea.png",
+			"url" : "/images/8.jpg"
+		}
+	],
+
+	"unwind" : [
+		{
+			"teaName" : "Peppermint tea",
+			"imageUrl" : "/images/Peppermint tea.png",
+			"url" : "/images/9.jpg"
+		},
+		{
+			"teaName" : "Green tea",
+			"imageUrl" : "/images/Green tea.png",
+			"url" : "/images/10.jpg"
+		},
+		{
+			"teaName" : "Rose tea",
+			"imageUrl" : "/images/Rose tea.png",
+			"url" : "/images/11.jpg"
+		},
+		{
+			"teaName" : "St. John's wort tea",
+			"imageUrl" : "/images/St. John's wort tea.png",
+			"url" : "/images/12.jpg"
+		},
+		{
+			"teaName" : "Holy bassil tea",
+			"imageUrl" : "/images/Holy bassil tea.png",
+			"url" : "/images/13.jpg"
+		},
+		{
+			"teaName" : "Motherwort tea",
+			"imageUrl" : "/images/Motherwort tea.png",
+			"url" : "/images/14.jpg"
+		},
+		{
+			"teaName" : "Valerian tea",
+			"imageUrl" : "/images/Valerian tea.png",
+			"url" : "/images/15.jpg"
+		},
+		{
+			"teaName" : "Oolong tea",
+			"imageUrl" : "/images/Oolong tea.png",
+			"url" : "/images/16.jpg"
+		}
+
+	],
+	"relieve" : [
+
+		{
+		"teaName" : "Grapefruit tea",
+		"imageUrl" : "/images/Grapefruit tea.png",
+		"url" : "/images/17.jpg"
+		},
+		{
+		"teaName" : "Lemon balm tea",
+		"imageUrl" : "/images/Lemon balm tea.png",
+		"url" : "/images/18.jpg"
+		},
+		{
+		"teaName" : "Puer tea",
+		"imageUrl" : "/images/Puer tea.png",
+		"url" : "/images/19.jpg"
+		},
+		{
+		"teaName" : "Golden root tea",
+		"imageUrl" : "/images/Golden root tea.png",
+		"url" : "/images/20.jpg"
+		},
+		{
+		"teaName" : "Ashwagandha tea",
+		"imageUrl" : "/images/Ashwagandha tea.png",
+		"url" : "/images/21.jpg"
+		},
+		{
+		"teaName" : "Linden tea",
+		"imageUrl" : "/images/Linden tea.png",
+		"url" : "/images/22.jpg"
+		},
+		{
+		"teaName" : "Rosemary tea",
+		"imageUrl" : "/images/Rosemary tea.png",
+		"url" : "/images/23.jpg"
+		},
+		{
+		"teaName" : "Kava tea",
+		"imageUrl" : "/images/Kava tea.png",
+		"url" : "/images/24.jpg"
+		}
+	],
+	"revive" : [
+
+		{
+		"teaName" : "Black tea",
+		"imageUrl" : "/images/Black tea.png",
+		"url" : "/images/25.jpg"
+		},
+		{
+		"teaName" : "Goji tea",
+		"imageUrl" : "/images/Goji tea.png",
+		"url" : "/images/26.jpg"
+		},
+		{
+		"teaName" : "Omija tea",
+		"imageUrl" : "/images/Omija tea.png",
+		"url" : "/images/27.jpg"
+		},
+		{
+		"teaName" : "Yulmu tea",
+		"imageUrl" : "/images/Yulmu tea.png",
+		"url" : "/images/28.jpg"
+		},
+		{
+		"teaName" : "Ginkgo Gray",
+		"imageUrl" : "/images/Ginkgo Gray.png",
+		"url" : "/images/29.jpg"
+		},
+		{
+		"teaName" : "Hibiscus Gray",
+		"imageUrl" : "/images/Hibiscus Gray.png",
+		"url" : "/images/30.jpg"
+		},
+		{
+		"teaName" : "Ginseng Gray",
+		"imageUrl" : "/images/Ginseng Gray.png",
+		"url" : "/images/31.jpg"
+		},
+		{
+		"teaName" : "Reishi Gray",
+		"imageUrl" : "/images/Reishi Gray.png",
+		"url" : "/images/32.jpg"
+		}
+	],
+		"remedy" : [
+
+		{"teaName" : "Ginger tea",
+		"imageUrl" : "/images/Ginger tea.png",
+		"url" : "/images/33.jpg"
+		},
+		{"teaName" : "Rooibos tea",
+		"imageUrl" : "/images/Rooibos tea.png",
+		"url" : "/images/34.jpg"
+		},
+		{"teaName" : "Tangerine peel tea",
+		"imageUrl" : "/images/Tangerine peel tea.png",
+		"url" : "/images/35.jpg"
+		},
+		{"teaName" : "Lemon tea",
+		"imageUrl" : "/images/Lemon te.png",
+		"url" : "/images/36.jpg"
+		},
+		{"teaName" : "Honey tea",
+		"imageUrl" : "/images/Honey tea.png",
+		"url" : "/images/37.jpg"
+		},
+		{"teaName" : "Fig tea",
+		"imageUrl" : "/images/Fig tea.png",
+		"url" : "/images/38.jpg"
+		},
+		{"teaName" : "Cornelian cherry tea",
+		"imageUrl" : "/images/Cornelian cherry tea.png",
+			"url" : "/images/39.jpg"
+		},
+		{"teaName" : "Green plum tea",
+		"imageUrl" : "/images/Green plum tea.png",
+		"url" : "/images/40.jpg"
+		}
+		]
+
+		}

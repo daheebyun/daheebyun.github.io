@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+		
+		var url = "all_teas.json";
+
+		$.getJSON(url, function (data) {
+
+			console.log(data);
+
+			var calm_teas = data.calm;
+			// var unwind_teas = data.unwind;
+
+			for (var i = 0; i < calm_teas.length; i++) {
+				
+				var name = calm_teas[i].teaName;
+				var imageurl = calm_teas[i].imageUrl;
+				var url = calm_teas[i].url;
+
+				$("body").append( "<a href='" + url + "'><img src='" + imageurl + "' ></a>" );
+			}
+
+		})
+
+		
+	</script>
+
+</script>
+</body>
+</html>

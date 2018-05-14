@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html,body{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+.div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin:0 auto;
+}
+.div img {
+  position: absolute;
+  left: 42.3%;
+  top: 35%;
+  height: 300px;
+  width: 300px;
+  z-index: 1;
+  display: block;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+#rectangle{
+  position: absolute;
+  overflow: hidden;
+  width:100%;
+  height:100%;
+  background:#94c3db;
+}
+@media(hover:none){
+  .div img{
+  position: absolute;
+  height: 300px;
+  width: 300px;
+
+  z-index: 1;
+  display: block;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+</style>
+</head>
+<body>
+<div class="div">
+  <a href="menu2.html"><img src="menu.png"></a>
+  <div id="rectangle"></div>
+</div>
+</body>
+</html>

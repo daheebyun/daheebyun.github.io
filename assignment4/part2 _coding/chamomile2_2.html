@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html,body{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color:white;
+}
+.water {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin:0 auto;
+  background-color:#94c3db;
+}
+a{
+  position: absolute;
+}
+
+</style>
+</head>
+<body>
+  <div class="water"></div>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  
+
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script type="text/javascript">
+  
+  //get the url
+
+  var hash = window.location.hash;
+  hash = hash.replace("#", "")
+  console.log(hash)
+
+  var imagecount, imagesize, color;
+  var imagesrc = hash + ".png";
+
+  if(hash == "chamomile"){
+    imagecount = 10;
+    imagesize = 50;
+    color = "#efd124";
+  }
+  if(hash == "passion"){
+    imagecount = 10;
+    imagesize = 90;
+    color = "#f3942c";
+  }
+ if(hash == "solomon"){
+    imagecount = 10;
+    imagesize = 130;
+    color = "#d49845";
+  }
+  if(hash == "barley"){
+    imagecount = 10;
+    imagesize = 200;
+    color = "#e9ac49";
+  }
+  if(hash == "cassia"){
+    imagecount = 10;
+    imagesize = 300;
+    color = "#c11a19";
+  }
+  if(hash == "lavender"){
+    imagecount = 10;
+    imagesize = 200;
+    color = "#bd9458";
+  }
+  if(hash == "magnolia"){
+    imagecount = 10;
+    imagesize = 150;
+    color = "#a18d38";
+  }
+  if(hash == "hops"){
+    imagecount = 10;
+    imagesize = 160;
+    color = "#d9920d";
+  }
+  if(hash == "peppermint"){
+    imagecount = 10;
+    imagesize = 150;
+    color = "#f1b510";
+  }
+  if(hash == "green"){
+    imagecount = 10;
+    imagesize = 160;
+    color = "#bec564";
+  }
+  if(hash == "rose"){
+    imagecount = 10;
+    imagesize = 130;
+    color = "#ed6931";
+  }
+  if(hash == "john"){
+    imagecount = 10;
+    imagesize = 140;
+    color = "#ac7e26";
+  }
+  if(hash == "basil"){
+    imagecount = 10;
+    imagesize = 110;
+    color = "#7b9471";
+  }
+  if(hash == "motherwort"){
+    imagecount = 10;
+    imagesize = 130;
+    color = "#c68a22";
+  }
+  if(hash == "valerian"){
+    imagecount = 10;
+    imagesize = 90;
+    color = "#f1a822";
+  }
+  if(hash == "oolong"){
+    imagecount = 8;
+    imagesize = 150;
+    color = "#c36c28";
+  }
+  if(hash == "grapefruit"){
+    imagecount = 10;
+    imagesize = 160;
+    color = "#f0897a";
+  }
+ if(hash == "lemonbalm"){
+    imagecount = 10;
+    imagesize = 120;
+    color = "#d8981e";
+  }
+ if(hash == "puer"){
+    imagecount = 10;
+    imagesize = 130;
+    color = "#472222";
+  }
+ if(hash == "goldenroot"){
+    imagecount = 10;
+    imagesize = 160;
+    color = "#d9920d";
+  }
+ if(hash == "ashwagandha"){
+    imagecount = 8;
+    imagesize = 120;
+    color = "#f49b2b";
+  }
+ if(hash == "linden"){
+    imagecount = 10;
+    imagesize = 100;
+    color = "#c27f25";
+  }
+ if(hash == "rosemary"){
+    imagecount = 9;
+    imagesize = 110;
+    color = "#d86926";
+  }
+ if(hash == "kava"){
+    imagecount = 10;
+    imagesize = 130;
+    color = "#d87c24";
+  }
+ if(hash == "black"){
+    imagecount = 10;
+    imagesize = 140;
+    color = "#97312e";
+  }
+ if(hash == "goji"){
+    imagecount = 10;
+    imagesize = 130;
+    color = "#da853c";
+  }
+ if(hash == "omija"){
+    imagecount = 10;
+    imagesize = 160;
+    color = "#c1171d";
+  }
+ if(hash == "yulmu"){
+    imagecount = 10;
+    imagesize = 130;
+    color = "#f0d39c";
+  }
+ if(hash == "ginkgo"){
+    imagecount = 10;
+    imagesize = 100;
+    color = "#f39d50";
+  }
+ if(hash == "hibiscus"){
+    imagecount = 10;
+    imagesize = 100;
+    color = "#d61526";
+  }
+ if(hash == "ginseng"){
+    imagecount = 10;
+    imagesize = 110;
+    color = "#d9920d";
+  }
+ if(hash == "reishi"){
+    imagecount = 10;
+    imagesize = 90;
+    color = "#bc7d29";
+  }
+ if(hash == "ginger"){
+    imagecount = 10;
+    imagesize = 160;
+    color = "#8a4c13";
+  }
+ if(hash == "rooibos"){
+    imagecount = 10;
+    imagesize = 80;
+    color = "#8c1812";
+  }
+ if(hash == "tangerine"){
+    imagecount = 10;
+    imagesize = 80;
+    color = "#eccc5a";
+  }
+ if(hash == "lemon"){
+    imagecount = 10;
+    imagesize = 50;
+    color = "#c36015";
+  }
+ if(hash == "honey"){
+    imagecount = 10;
+    imagesize = 70;
+    color = "#de590c";
+  }
+ if(hash == "fig"){
+    imagecount = 10;
+    imagesize = 160;
+    color = "#a65b24";
+  }
+ if(hash == "cornelian"){
+    imagecount = 10;
+    imagesize = 100;
+    color = "#a41b17";
+  }
+ if(hash == "greenplum"){
+    imagecount = 10;
+    imagesize = 120;
+    color = "#5b1e10";
+  }
+  for(var i = 0; i < imagecount; i++){
+    var ahref = document.createElement("a");
+    ahref.href = hash + "2.html";
+    ahref.style.top = parseInt(Math.random()*window.innerHeight) - imagesize + "px";
+    ahref.style.left = parseInt(Math.random()*window.innerWidth) - imagesize + "px";
+    var w = imagesize + "px";
+    var h = imagesize + "px";
+    ahref.innerHTML = "<img src='"+hash+".png' style='width:"+w+";height:"+h+"'>";
+    document.body.appendChild(ahref);
+  }
+
+  $(".water").animate({ backgroundColor: color },4000);
+
+</script>
+
+</body>
+</html>

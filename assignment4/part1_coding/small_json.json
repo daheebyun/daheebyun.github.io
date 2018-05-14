@@ -1,0 +1,44 @@
+{
+	"calm" : [
+		{
+			"teaName" : "Chamomile tea",
+			"imageUrl" : "/images/Chamomile tea.png",
+			"url" : "/testhtml.html"
+		},
+		{
+			"teaName" : "Passion flower tea",
+			"imageUrl" : "/images/Passion flower tea.png",
+			"url" : "/revivetea.html"
+		},
+		{
+			"teaName" : "Solomon's seal tea",
+			"imageUrl" : "/images/Solomon's seal tea.png",
+			"url" : "/revivetea.html"
+		},
+		{
+			"teaName" : "Barely tea",
+			"imageUrl" : "/images/Barely tea.png",
+			"url" : "/revivetea.html"
+		},
+		{
+			"teaName" : "Cassia seed tea",
+			"imageUrl" : "/images/Cassia seed tea.png",
+			"url" : "/revivetea.html"
+		},
+		{
+			"teaName" : "Lavender tea",
+			"imageUrl" : "/images/Lavender tea.png",
+			"url" : "/revivetea.html"
+		},
+		{
+			"teaName" : "Magnolia tea",
+			"imageUrl" : "/images/Magnolia tea.png",
+			"url" : "/revivetea.html"
+		},
+		{
+			"teaName" : "Hops herbal tea",
+			"imageUrl" : "/images/Hops herbal tea.png",
+			"url" : "/revivetea.html"
+		}
+	]
+}
