@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html, body{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	font-family: "Minion Pro", serif;
+}
+a{
+	text-decoration: none;
+}
+p{
+	color: #000;
+	font-size: 50px;
+	text-align: center;
+
+}
+hr{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 6%;
+}
+img {
+	margin-left:0.9%;
+	margin-top:4%;
+	width: 400px;
+	height: 400px;
+}
+#calm{color: #3d402d;}
+#unwind{color: #4f5357;}
+#relieve{color: #c1a87c;}
+#revive{color: #bdb0a2;}
+#remedy{color: #59443a;}
+
+#line1{color: #4f5357;}
+#line2{color: #c1a87c;}
+#line3{color: #bdb0a2;}
+#line4{color: #59443a;}
+
+.circle{
+	/* circle css style*/
+
+}	
+
+</style>
+</head>
+<body>
+	
+
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+		
+		var url = "https://raw.githubusercontent.com/daheebyun/Core_Lab_Interaction/master/all_teas.json";
+
+		$.getJSON(url, function (data) {
+
+			console.log(data);
+
+			var calm_teas = data.calm;
+			// var unwind_teas = data.unwind;
+
+			for (var i = 0; i < calm_teas.length; i++) {
+				
+				var name = calm_teas[i].teaName;
+				var imageurl = calm_teas[i].imageUrl;
+				var url = calm_teas[i].url;
+
+				$("body").append( "<a href='" + url + "'><img src='" + imageurl + "' ></a>" );
+			}
+
+		})
+
+		
+	</script>
+
+</body>
+</html>
